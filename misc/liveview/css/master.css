@@ -1,0 +1,94 @@
+@charset "iso-8859-1";
+
+/*========================================================= 
+ Title:  UNSW Solar Car Racing Team
+ Author: Konny Zurcher (konny.seashadow@gmail.com)
+===========================================================*/
+/* ---------------------------------------------
+ general overrides
+ ---------------------------------------------*/
+body       		{ font-size:81.25%; color:#333; background:#ddd; font-family:Verdana,"Helvetica Neue", Helvetica, Arial, sans-serif; }
+p          		{ text-align:justify; }
+hr         		{ border:1px solid #BD0000; }
+.box       		{ padding:0.25em; margin-bottom:0.25em; background:#fff; border:1px dashed #BD0000; }
+.box_sponsor	{ padding:0.25em; margin-bottom:0.8em; background:#fff; border:1px dashed #BD0000; }
+div.colborder   { padding-right:24px; margin-right:25px; border-right:0px solid #ccc; }
+
+h1, h2, h3, h4, h5, h6  		{ font-weight:normal; color:#BD0000; margin-bottom:0.5em; }
+a, a:focus, a:hover, a:visited 	{ color:#BD0000; text-decoration:none; }
+	
+/* ---------------------------------------------
+ containers
+ ---------------------------------------------*/
+#header         { background:#ccc url('../images/sunswift3.png'); border-bottom:1px solid #BD0000; }
+#header img     { padding:10px 0 10px 15px; }
+#eventcontent   { padding:0 5px 0 15px; }
+.container		{ background:#fff; padding:0; border:1px solid #BD0000; margin-top:15px; margin-bottom:15px; }
+.title          { padding-left:15px; }
+#head_title		{ background:#DADBD4; color:#BD0000; font-weight:bold; font-size:1.2em; margin-bottom:10px; padding:5px 0; }
+#map_canvas     { margin-bottom:25px; border:1px solid #ccc; }
+#footer         { padding-bottom:15px; }
+#webcam         { padding-left:10px; border-left:1px solid #ccc; }
+#live           { font-size:11px; color:#BD0000; font-weight:bold; float:right; margin:10px 5px 0 0 ; }
+	
+/* ---------------------------------------------
+ subnavigation
+ ---------------------------------------------*/
+#navlist {
+	margin:0 0 0 15px;
+	padding-top:0;
+	padding-bottom:25px;
+	padding-left: 0;
+}
+
+#navlist ul, #navlist li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#navlist a:link, #navlist a:visited {
+	background: #DADBD4;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid solid solid solid;
+	border-color: #BD0000 #BD0000 #DADBD4 #BD0000;
+	color: #666;
+	float: left;
+	font-size: small;
+	font-weight: normal;
+	line-height: 14px;
+	margin-right: 8px;
+	padding:5px 20px 5px 20px;
+	text-decoration: none;
+}
+
+#navlist a:link#current, #navlist a:visited#current {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+	color: #000;
+}
+
+#navlist li a:hover {
+	border-width: 1px 1px 1px 1px;
+	border-style: solid solid solid solid;
+	border-color: #BD0000 #BD0000 #DADBD4 #BD0000;
+}
+
+#navlist a:hover {
+	color: #BD0000;
+}
+
+#navlist ul li.inPath a {
+	border-width: 1px 1px 1px 1px;
+	border-style: solid solid solid solid;
+	border-color: #BD0000 #BD0000 #DADBD4 #BD0000;
+	color: #BD0000;
+}
+
+/* ---------------------------------------------
+ table customization
+ ---------------------------------------------*/
+table    	{ border:1px solid #ccc; margin:0; padding:0; }
+th         	{ border:1px solid #ccc; background: #DADBD4; }
+td          { border:1px solid #ccc; }

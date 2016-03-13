@@ -1,0 +1,8 @@
+# @configure_input@
+import string
+PREFIX='@prefix@'
+PKGDATADIR = string.replace('@datadir@/@PACKAGE@','${prefix}', PREFIX)
+PYDIR= string.replace('@pythondir@','${prefix}', PREFIX)
+VERSION='@VERSION@'
+PYGTK_DEFSDIR='@PYGTK_DEFSDIR@'
+del string

@@ -1,0 +1,6 @@
+Andreas Voegele wrote the python bindings for GtkExtra-0.99.x
+under PyGtk-1 and Gtk-1.2. He has since left the project.
+
+Toby D. Reeves <treeves@users.sourceforge.net> wrote the python
+bindings for GtkExtra-2 under PyGtk-2 and Gtk-2.x. This is an
+almost complete rewrite with very little of Andreas' C code left.

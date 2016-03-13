@@ -1,0 +1,16 @@
+2004-03-31  Toby D. Reeves  <toby@solidstatescientific.com>
+
+	* gtkextra.gtkextra.defs: Make gtk_sheet_cell_get_text return a const-gchar*
+	to avoid generated code from g_free'ing the return pointer.
+	Reported by Bernhard Rumpler <rumpler@tttech.com>.
+
+2004-03-04  Bernhard Rumpler <rumpler@tttech.com>
+
+	* gtkextra/gtkextra.override: Provided overrides for gtk_sheet_get_active_cell,
+	gtk_sheet_get_pixel_info, and gtk_sheet_put
+
+2002-07-10  Toby D. Reeves  <toby@solidstatescientific.com>
+
+	* Initial new files (mostly) for Gtk2 version of gtk+extra
+	
+
